@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang=nl>
+	<head>
+		<link rel=stylesheet href=css/bootstrap.css>
+		<link rel=stylesheet href=css/main.css type="text/css">
+		<link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+		<meta charset=utf-8>
+		<meta charset=utf-8>
+		<meta name=description content="Beschrijving van de webpagina">
+		<meta name=keywords content="trefwoorden, geschieden, door, komma's">
+		<title>S4 League fan page</title>
+	</head>
+	<body>
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+		
+		<!-- Start of the page -->
+		<!-- Navigation bar -->
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href=index.html>S4L</a>
+				</div>
+				<ul class="nav navbar-nav">
+					<li><a href=index.html>Home</a></li>
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown">Game modes<span class="glyphicon glyphicon-menu-down"></span></a>
+						<ul class="dropdown-menu active">
+							<li><a href=touchdown.html>Touch Down</a></li>
+							<li><a href=deathmatch.html>Death Match</a></li>
+							<li class="active"><a href=chaser.html>Chaser</a></li>
+						</ul>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown">Weapons<Span class="glyphicon glyphicon-menu-down"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href=melee.html>Melee</a></li>
+								<li><a href=guns.html>Guns</a></li>
+								<li><a href=restrictions.html>Weapon Restrictions</a><li>
+							</ul>
+							<li><a href=media.html>Media</a></li><!-- Add form for submitting images to page -->
+						</ul>
+					</div>
+				</nav>
+				<!-- End of navigation bar -->
+				<!-- Page header -->
+				<div class="page-header">
+					<div class="container-fixed">
+						<div class="row-fluid">
+							<div class="span12">
+								<a href="index.html"><img src="images/pageheader.png" class="img-fluid" alt="banner"></a>
+							</div>
+						</div>
+						<div class="row" id="title">
+							<div class="col-md-4">
+								<h1>An S4 League fan page.<br>
+							</div>
+							<div class="col-md-4 heading-small">
+								<h1><small>A project for school, talking about a game I've been playing for too long.</small></h1>
+							</div>
+							<div class="col-md-4"> <!-- Empty space -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="alert alert-info"> <!-- Incomplete page warning -->
+			<strong>Incomplete!</strong> This webpage is sadly incomplete, over time, it will be finished.
+		</div><br>
+		
+		<!-- Text for the page -->
+		<!-- 1st textfield -->
+		<div class="container-fixed" id="textfield-left">
+			<div class="row">
+				<div class="span12">
+					<h2>Chaser, a thrilling skill tester, designed to keep you on your toes.</h2>
+				</div>
+				<div class="col-md-4">	
+					<p>A game mode that pits you against every other player in the room. Every round a random player gets selected to be the Chaser. He or she must then eliminate all the other players in the room. If the Chaser fails to do so, the players that did die get 5 points, and the surviving players get 15 points.</p>
+					<br>
+					<p>As a Chaser, you have two options, you can either go for anyone and everything, racking up two points per kill, up to a maximum of 25 points, or go for the targets, awarding double points, up to a maximum of 44 points.</p>
+				</div>
+				<div class="col-md-4">
+					<img src="images/Chaser.png" class="img-responsive">
+				</div>
+				<div class="col-md-4">
+					<p>At the start of the game, the target is selected at random. The Chaser then gets 3 minutes to try and kill everyone present in the room. After the first round, the target is selected based on the highest score.</p>
+					<br>
+					<p>Other then killing targets, surviving rounds or killing everyone, you can gain points by damaging the Chaser using your weapons. A bar will display as an indicator to show how many times you have to hit the Chaser to gain 2 points. Though, this can be a difficult task to do, since the Chaser has increased movement speed.</p>
+				</div>
+			</body>
+		</html>

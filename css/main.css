@@ -1,0 +1,63 @@
+body {
+	background-color: #222; /* Drak grey */	/* Background color */
+	overflow-x: hidden;
+}
+
+nav { 										/* Navigation bar */
+	font-family: 'Orbitron', sans-serif;
+	font-size: 1em;
+}
+
+.navbar-brand{								/* Navigation bar */
+	font-family: 'Orbitron', sans-serif;
+	font-size: 0.99em;
+}
+
+.img-fluid{									/* Navigation bar */
+	max-width: 100%;
+	height: auto;
+}
+
+.row {										/* Page Header */
+	padding-left :5em;
+}
+
+
+.page-header{								/* Page Header */
+	max-width:100%;
+}
+
+
+
+.heading-small {							/* Page Header */
+	text-align: center;
+}
+
+#title h1 {									/* Page Header */
+	font-family: 'Orbitron', sans-serif;
+	color: #b3b3b3;	/* Light gray */
+
+}
+
+#title small{								/* Page Header */
+	color: #b3b3b3; /* Light gray */
+}
+
+#formheader{								/* Font of the form on media.html */
+	font-family:'Orbitron', sans-serif;
+	font-size: 12px;
+}
+
+#textfield-right {							/* First Textfield */
+	padding-left: 5em;
+}
+
+p {
+	color: white;
+}
+
+h2 {
+	color: #4b87f6; /* Light blue */
+}
+
+
